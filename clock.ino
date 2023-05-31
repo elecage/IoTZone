@@ -27,7 +27,7 @@
 // ports used to control the stepper motor.
 // if your motor rotates to the opposite direction, change to
 //int port[PINS] = {12, 4, 3, 2};
-int port[PINS] = {2, 0, 4, 12};
+int port[PINS] = {2, 3, 4, 12};
 
 // sequence of stepper motor control
 int seq[PHASE][PINS] = {
